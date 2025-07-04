@@ -1,0 +1,24 @@
+cpv_list:
+  - 72221000
+  - 72224000
+  - 72316000
+  - 72262000
+  - 72514000
+  - 72212730   # Security-SW-Entwicklung :contentReference[oaicite:2]{index=2}
+  - 72212731
+  - 72212732
+  - 79417000   # Info-Sec-Beratung      :contentReference[oaicite:3]{index=3}
+regions: [DE9, DE6, DEE, DE7, DEG]          # NUTS: NI, HH, ST, HE, TH
+branch_keywords:
+  - Automotive
+  - Mobilität
+  - Energie
+  - Verwaltung
+  - öffentliche Ausschreibungen
+  - Rundfunk- und Medienanstalten
+  - Versicherungen
+min_budget: 50000
+period: "letzte 30 Tage"
+top_n: 20
+json_limit: 150
+min_hits: 10
