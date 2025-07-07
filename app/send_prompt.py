@@ -23,8 +23,8 @@ def build_messages() -> list[dict]:
     rendered = env.get_template(TEMPLATE.name).render(**cfg)
 
     # Template enthält 2 Abschnitte – wir trennen sie an der Marker-Zeile
-    system_marker = "{# ---------------- SYSTEM MESSAGE ---------------- #}"
-    user_marker   = "{# ---------------- USER MESSAGE ---------------- #}"
+    system_marker = "@@SYSTEM_MESSAGE@@"
+    user_marker   = "@@USER_MESSAGE@@"
 
     system_part, user_part = rendered.split(user_marker, 1)
     system_part = system_part.replace(system_marker, "").strip()
