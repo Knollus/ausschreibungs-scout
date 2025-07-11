@@ -1,13 +1,10 @@
 cpv_list:
-  - 72221000
-  - 72224000
-  - 72316000
-  - 72262000
-  - 72514000
-  - 72212730   # Security-SW-Entwicklung :contentReference[oaicite:2]{index=2}
-  - 72212731
-  - 72212732
-  - 79417000   # Info-Sec-Beratung      :contentReference[oaicite:3]{index=3}
+  - 72221000  # Beratung zu Business-Analyse
+  - 72224000  # Projektmanagement-Beratung
+  - 72316000  # Datenanalyse-Dienste
+  - 72262000  # Software-Entwicklung
+  - 72514000  # IT-Betriebsleistungen
+  - 79417000  # Beratung zu Informationssicherheit
 regions: [DE9, DE6, DEE, DE7, DEG]          # NUTS: NI, HH, ST, HE, TH
 branch_keywords:
   - Automotive
