@@ -5,6 +5,15 @@ cpv_list:
   - 72262000  # Software-Entwicklung
   - 72514000  # IT-Betriebsleistungen
   - 79417000  # Beratung zu Informationssicherheit
+  - 72000000  # Dienstleistungen im Bereich Informationstechnologie
+  - 72200000  # Software-Programmierung und -Beratung
+  - 72260000  # Software-Entwicklung
+  - 72400000  # IT-Dienstleistungen: Beratung, Software-Entwicklung, Internet und Support
+  - 72600000  # Datenverarbeitung und IT-Sicherheitsberatung
+  - 72700000  # Dienstleistungen im Bereich Datenverarbeitung
+  - 48800000  # Softwarepakete und Informationssysteme
+  - 30200000  # Computergeräte und Zubehör
+  - 38420000  # Künstliche Intelligenz und verwandte Dienstleistungen
 regions: [DE9, DE6, DEE, DE7, DEG]          # NUTS: NI, HH, ST, HE, TH
 branch_keywords:
   - Automotive
